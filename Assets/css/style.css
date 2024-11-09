@@ -1,0 +1,426 @@
+*,
+html,
+body{
+    padding: 0;
+    margin: 0;
+
+    font-family: Open Sans;
+}
+
+
+/* Navbar START */
+    header{
+        width: 100%;
+        background-color: #6D2CF2;
+
+    }
+
+    header nav{
+        padding: 10px;
+    }
+
+    header nav ul{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        box-sizing: border-box;
+    }
+
+    header nav ul li{
+        list-style-type: none;
+        align-content: center;
+
+    }
+
+        /* Judul */
+        header nav ul li .judul-img img{
+            width: 46px;
+            background-color: white;
+            border-radius: 100px;
+
+            text-align: center;
+        }
+
+        header nav ul li .judul-img .logo{
+            display: flex;
+        }
+
+            /* Text */
+                header nav ul li .judul-img p{
+                    color: white;
+                    margin-left: 10px;
+                    align-content: center;
+
+                }
+            /* Text */
+
+            /* Active */
+                header nav ul li .active{
+                    color: white;
+                }
+            /* Active */
+
+
+
+        /* Judul */
+
+
+        /* Menu */
+            header nav ul li a{
+                color: #AEB2B6;
+                margin: 10px;
+                
+                text-decoration: none;
+            }
+
+            header nav ul li a:hover{
+                color: white;
+            }
+        /* Menu */
+/* Navbar END */
+
+
+
+
+/* Main START */
+    main{
+        color: white;
+        width: 100%;
+        background-color: #212529;
+    }
+
+    main .container{
+        padding: 10px;
+    }
+
+    main .container ul{
+        display: unset;
+        justify-content: center;
+        flex-wrap: wrap-reverse;
+    }
+
+        /* Column main START */
+            .column-main{
+                width: 100%;
+                flex: 3;
+                order: 2;
+            }
+
+                /* Hero Parent START */
+                    .column-main .hero-parent{
+                    }
+                    
+                    .column-main .hero-parent .container{
+                        
+                    }
+
+                    .column-main .hero-parent .container ul{
+                        
+                    }
+                    
+                    .column-main .hero-parent .container ul img{
+                        min-width: 50%;
+                        max-width: 100%;
+                        
+                        border-radius: 12px;
+                        
+                        object-fit: cover;
+                    }
+                /* Hero Parent END */
+
+
+
+                    /* Hero Child START */
+                        .hero-child{
+                            width: 100%;
+                        }
+
+                        .hero-child .container{
+                            padding: 10px;
+                        }
+
+                        .hero-child .container ul{
+                            display: flex;
+                            justify-content: center;
+                        }
+
+                            /* Card */
+
+                                /* Card 1 */
+                                    .hero-child .container ul .card-1{
+                                    }
+
+                                    .hero-child .container ul .card-1 .container{
+                                        padding: 10px;
+                                        margin: 10px 10px;
+                                        background-color: black;
+                                    }
+
+                                    .hero-child .container ul .card-1 .container a{
+                                        color: black;
+                                        background-color: white;
+                                    }
+
+                                    .hero-child .container ul .card-1 .container a img{
+                                        min-width: 100px;
+                                        max-width: 300px;
+
+                                        min-height: 100px;
+                                        max-height: 300px;
+
+                                        object-fit: cover;
+                                    }
+                                /* Card 1 */
+
+
+                                
+                                /* Card 2 */
+                                    .hero-child .container ul .card-2{
+                                    }
+
+                                    .hero-child .container ul .card-2 .container{
+                                        padding: 10px;
+                                        margin: 10px 10px;
+                                        background-color: black;
+                                    }
+
+                                    .hero-child .container ul .card-2 .container a{
+                                        color: black;
+                                        background-color: white;
+                                    }
+
+                                    .hero-child .container ul .card-2 .container a img{
+                                        min-width: 100px;
+                                        max-width: 300px;
+
+                                        min-height: 100px;
+                                        max-height: 300px;
+
+                                        object-fit: cover;
+                                    }
+                                /* Card 2 */
+
+
+
+                                /* Card 3 */
+                                    .hero-child .container ul .card-3{
+
+                                    }
+
+                                    .hero-child .container ul .card-3 .container{
+                                        padding: 10px;
+                                        margin: 10px 10px;
+                                        background-color: black;
+                                    }
+
+                                    .hero-child .container ul .card-3 .container a{
+                                        color: black;
+                                        background-color: white;
+                                    }
+
+                                    .hero-child .container ul .card-3 .container a img{
+                                        min-width: 100px;
+                                        max-width: 300px;
+
+                                        min-height: 100px;
+                                        max-height: 300px;
+
+                                        object-fit: cover;
+                                    }
+                                /* Card 3 */
+
+
+
+                                /* Card 3 */
+                                    .hero-child .container ul .card-4{
+
+                                    }
+
+                                    .hero-child .container ul .card-4 .container{
+                                        padding: 10px;
+                                        margin: 10px 10px;
+                                        background-color: black;
+                                    }
+
+                                    .hero-child .container ul .card-4 .container a{
+                                        color: black;
+                                        background-color: white;
+                                    }
+
+                                    .hero-child .container ul .card-4 .container a img{
+                                        min-width: 100px;
+                                        max-width: 300px;
+
+                                        min-height: 100px;
+                                        max-height: 300px;
+
+                                        object-fit: cover;
+                                    }
+                                /* Card 3 */
+
+
+                                
+
+                            /* Card */
+
+                    /* Hero Child END */
+
+
+
+        /* Column main END */
+
+
+
+
+        /* Sidebar Second START */
+            .sidebar-second{
+                width: 100%;
+                flex: 1;
+                order: 1;
+                background-color: #1B1F22;
+
+            }
+
+            .sidebar-second .container{
+                position: unset;
+                padding: 10px;
+            }
+
+            .sidebar-second .container h3{
+                color: white;
+            }
+
+            .sidebar-second .container ul{
+                display: block;
+                padding: 10px;
+            }
+
+            .sidebar-second .container ul li{
+                display: flex;
+
+            }
+
+                /* Link */
+                            /* Active */
+                                .sidebar-second .container ul li .active-second{
+                                    color: white;
+                                    background-color: #3A2372;
+
+                                    border-radius: 4px;
+                                }
+                            /* Active */
+
+
+                    .sidebar-second .container ul li a{
+                        color: #AEB2B6;
+
+
+                        padding: 5px;
+                        text-decoration: none;
+                    }
+
+                    .sidebar-second .container ul li a:hover{
+                        color: white;
+                        background-color: #3A2372;
+
+                        border-radius: 4px;
+                    }
+                /* Link */
+        /* Sidebar Second END */
+
+
+
+
+        /* Sidebar Third START */
+            .sidebar-third{
+                width: 100%;
+                flex: 1;
+                order: 3;
+                background-color: #1B1F22;
+            }
+
+            .sidebar-third .container{
+                position: unset;
+                padding: 10px;
+            }
+
+            .sidebar-third .container h3{
+                color: #AEB2B6;
+            }
+
+            .sidebar-third .container ul{
+                
+                display: block;
+                padding: 10px;
+            }
+
+            .sidebar-third .container ul li{
+                list-style-type: none;
+                
+            }
+
+                /* Link */
+                            /* Active */
+                            .sidebar-third .container ul li .active-third{
+                                color: white;
+                                border-left: 2px solid white;
+                            }
+                        /* Active */
+
+
+                    .sidebar-third .container ul li a{
+                        color: #AEB2B6;
+
+                        padding: 5px;
+                        text-decoration: none;
+                    }
+
+                    .sidebar-third .container ul li a:hover{
+                        color: white;
+                        border-left: 2px solid white;
+                    }
+                /* Link */
+        /* Sidebar Third END */
+/* Main END */
+
+
+
+
+/* Footer START */
+    footer{
+        width: 100%;
+        background-color: #6D2CF2;
+    }
+
+    footer .container{
+        padding: 10px;
+    }
+
+    footer .container p{
+        color: white;
+        text-align: center;
+    }
+/* Footer END */
+
+
+/* Responsive  */
+@media( min-width: 900px){ /*arti dari @media dengan property dan value min-width: 600px;*/
+
+    main .container ul{
+        display: flex;
+        justify-content: center;
+    }
+
+    .sidebar-third .container{
+        position: fixed;
+        padding: 10px;
+    }
+
+    .sidebar-second .container{
+        position: fixed;
+        padding: 10px;
+    }
+
+}
+
+/* Responsive  */
