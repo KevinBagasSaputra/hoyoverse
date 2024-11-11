@@ -305,6 +305,44 @@ body{
 
 
 
+
+
+
+
+
+
+                    /* Genshin Impact START */
+                        .genshin{
+                            width: 100%;
+                            margin-top: 50px;
+                        }
+
+                        .genshin .container{
+                            padding: 10px;
+                        }
+
+                        .genshin .container h2{
+                            color: black;
+                        }
+
+                        .genshin .container ul{
+                            display: flex;
+                            justify-content: center;
+                        }
+
+                            .genshin .container ul img{
+                                min-width: 50%;
+                                max-width: 100%;
+
+                                min-height: 100px;
+                                min-height: 300px;
+
+                                object-fit: cover;
+                            }
+                    /* Genshin Impact END */
+
+
+
         /* Column main END */
 
 
