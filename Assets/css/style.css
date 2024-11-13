@@ -312,36 +312,63 @@ body{
 
 
                     /* Genshin Impact START */
-                        .genshin{
-                            width: 100%;
-                            margin-top: 50px;
+                    .genshin {
+                        width: 100%;
+                    }
+                    
+                    .genshin .container {
+                        padding: 10px;
+                    }
+                    
+                    .genshin .container ul {
+                        display: flex;
+                        justify-content: center;
+                    }
+                    
+                        /* Header Content */
+                        .genshin .container ul .header-content {
+                            background-color: white;
                         }
-
-                        .genshin .container{
+                        
+                        .genshin .container ul .header-content .container {
                             padding: 10px;
                         }
 
-                        .genshin .container h2{
-                            color: black;
-                        }
-
-                        .genshin .container ul{
+                        .genshin .container ul .header-content .container ul{
                             display: flex;
-                            justify-content: center;
+                            justify-content: space-around;
+                            flex-wrap: nowrap;
                         }
+                        
+                        .genshin .container ul .header-content .container img {
+                            min-width: 100px;
+                            max-width: 100px;
+                            
+                            
+                            min-height: 50%;
+                            max-height: 100%;
+                            object-fit: cover;
+                        }
+                        /* Header Content */
 
-                            .genshin .container ul img{
-                                min-width: 50%;
-                                max-width: 100%;
+                            /* section text */
+                                .genshin .container ul .header-content .container .section-text{
+                                    min-width: 100px;
+                                    min-width: 200px;
 
-                                min-height: 100px;
-                                min-height: 300px;
+                                }
 
-                                object-fit: cover;
-                            }
+                                .genshin .container ul .header-content .container .section-text h3{
+                                    color: black;
+                                }
+
+                                .genshin .container ul .header-content .container .section-text p{
+                                    color: black;
+                                    margin: 10px;
+                                }
+                            /* section text */
+                    
                     /* Genshin Impact END */
-
-
 
         /* Column main END */
 
@@ -499,6 +526,24 @@ body{
         position: fixed;
         padding: 10px;
     }
+
+
+
+
+    .genshin .container ul .header-content .container img {
+        min-width: 50%;
+        max-width: 100%;
+
+
+        min-height: 100px;
+        max-height: 300px;
+        object-fit: cover;
+    }
+
+
+
+
+
 
 }
 
