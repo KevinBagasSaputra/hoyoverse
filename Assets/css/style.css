@@ -8,10 +8,15 @@ body{
 }
 
 
+body{
+    scroll-behavior: smooth;
+}
+
 /* Navbar START */
     header{
         width: 100%;
-        background-color: #6D2CF2;
+        background-color: #fff;
+        /* background-color: #6D2CF2; */
 
     }
 
@@ -35,7 +40,7 @@ body{
         /* Judul */
         header nav ul li .judul-img img{
             width: 46px;
-            background-color: white;
+            /* background-color: white; */
             border-radius: 100px;
 
             text-align: center;
@@ -47,7 +52,7 @@ body{
 
             /* Text */
                 header nav ul li .judul-img p{
-                    color: white;
+                    color: black;
                     margin-left: 10px;
                     align-content: center;
 
@@ -56,7 +61,7 @@ body{
 
             /* Active */
                 header nav ul li .active{
-                    color: white;
+                    color: black;
                 }
             /* Active */
 
@@ -74,7 +79,7 @@ body{
             }
 
             header nav ul li a:hover{
-                color: white;
+                color: black;
             }
         /* Menu */
 /* Navbar END */
@@ -86,7 +91,8 @@ body{
     main{
         color: white;
         width: 100%;
-        background-color: #212529;
+        background-color: #E7EFFC;
+        /* background-color: #212529; */
     }
 
     main .container{
@@ -96,7 +102,7 @@ body{
     main .container ul{
         display: unset;
         justify-content: center;
-        flex-wrap: wrap-reverse;
+        flex-wrap: wrap;
     }
 
         /* Column main START */
@@ -142,6 +148,7 @@ body{
                         .hero-child .container ul{
                             display: flex;
                             justify-content: center;
+                            
                         }
 
                             /* Card */
@@ -157,16 +164,24 @@ body{
                                     }
 
                                     .hero-child .container ul .card-1 .container a{
-                                        color: black;
                                         background-color: white;
+                                        
+                                        transition: all ease-in-out 550ms;
                                     }
+
+                                        .hero-child .container ul .card-1 .container a:hover{
+                                            opacity: 50%;
+
+                                            background-color: black;
+                                            transition: all ease-in 50ms;
+                                        }
 
                                     .hero-child .container ul .card-1 .container a img{
                                         min-width: 100px;
                                         max-width: 300px;
 
                                         min-height: 100px;
-                                        max-height: 300px;
+                                        max-height: 200px;
 
                                         object-fit: cover;
                                     }
@@ -185,16 +200,24 @@ body{
                                     }
 
                                     .hero-child .container ul .card-2 .container a{
-                                        color: black;
                                         background-color: white;
+                                        
+                                        transition: all ease-in-out 550ms;
                                     }
+
+                                        .hero-child .container ul .card-2 .container a:hover{
+                                            opacity: 50%;
+
+                                            background-color: black;
+                                            transition: all ease-in 50ms;
+                                        }
 
                                     .hero-child .container ul .card-2 .container a img{
                                         min-width: 100px;
                                         max-width: 300px;
 
                                         min-height: 100px;
-                                        max-height: 300px;
+                                        max-height: 200px;
 
                                         object-fit: cover;
                                     }
@@ -214,16 +237,24 @@ body{
                                     }
 
                                     .hero-child .container ul .card-3 .container a{
-                                        color: black;
                                         background-color: white;
+                                        
+                                        transition: all ease-in-out 550ms;
                                     }
+
+                                        .hero-child .container ul .card-3 .container a:hover{
+                                            opacity: 50%;
+
+                                            background-color: black;
+                                            transition: all ease-in 50ms;
+                                        }
 
                                     .hero-child .container ul .card-3 .container a img{
                                         min-width: 100px;
                                         max-width: 300px;
 
                                         min-height: 100px;
-                                        max-height: 300px;
+                                        max-height: 200px;
 
                                         object-fit: cover;
                                     }
@@ -243,16 +274,23 @@ body{
                                     }
 
                                     .hero-child .container ul .card-4 .container a{
-                                        color: black;
                                         background-color: white;
+                                        
+                                        transition: all ease-in-out 550ms;
                                     }
+
+                                        .hero-child .container ul .card-4 .container a:hover{
+                                            opacity: 50%;
+                                            background-color: black;
+                                            transition: all ease-in 50ms;
+                                        }
 
                                     .hero-child .container ul .card-4 .container a img{
                                         min-width: 100px;
                                         max-width: 300px;
 
                                         min-height: 100px;
-                                        max-height: 300px;
+                                        max-height: 200px;
 
                                         object-fit: cover;
                                     }
@@ -267,6 +305,44 @@ body{
 
 
 
+
+
+
+
+
+
+                    /* Genshin Impact START */
+                        .genshin{
+                            width: 100%;
+                            margin-top: 50px;
+                        }
+
+                        .genshin .container{
+                            padding: 10px;
+                        }
+
+                        .genshin .container h2{
+                            color: black;
+                        }
+
+                        .genshin .container ul{
+                            display: flex;
+                            justify-content: center;
+                        }
+
+                            .genshin .container ul img{
+                                min-width: 50%;
+                                max-width: 100%;
+
+                                min-height: 100px;
+                                min-height: 300px;
+
+                                object-fit: cover;
+                            }
+                    /* Genshin Impact END */
+
+
+
         /* Column main END */
 
 
@@ -277,17 +353,19 @@ body{
                 width: 100%;
                 flex: 1;
                 order: 1;
-                background-color: #1B1F22;
+                background-color: #BFD7FD;
+                /* background-color: #1B1F22; */
 
             }
 
             .sidebar-second .container{
                 position: unset;
                 padding: 10px;
+                
             }
 
             .sidebar-second .container h3{
-                color: white;
+                color: black;
             }
 
             .sidebar-second .container ul{
@@ -303,8 +381,8 @@ body{
                 /* Link */
                             /* Active */
                                 .sidebar-second .container ul li .active-second{
-                                    color: white;
-                                    background-color: #3A2372;
+                                    color: black;
+                                    background-color: #fff;
 
                                     border-radius: 4px;
                                 }
@@ -312,7 +390,7 @@ body{
 
 
                     .sidebar-second .container ul li a{
-                        color: #AEB2B6;
+                        color: black;
 
 
                         padding: 5px;
@@ -320,8 +398,8 @@ body{
                     }
 
                     .sidebar-second .container ul li a:hover{
-                        color: white;
-                        background-color: #3A2372;
+                        color: black;
+                        background-color: #fff;
 
                         border-radius: 4px;
                     }
@@ -336,7 +414,8 @@ body{
                 width: 100%;
                 flex: 1;
                 order: 3;
-                background-color: #1B1F22;
+                background-color: #BFD7FD;
+                /* background-color: #1B1F22; */
             }
 
             .sidebar-third .container{
@@ -345,7 +424,7 @@ body{
             }
 
             .sidebar-third .container h3{
-                color: #AEB2B6;
+                color: black;
             }
 
             .sidebar-third .container ul{
@@ -369,7 +448,7 @@ body{
 
 
                     .sidebar-third .container ul li a{
-                        color: #AEB2B6;
+                        color: black;
 
                         padding: 5px;
                         text-decoration: none;
@@ -389,7 +468,7 @@ body{
 /* Footer START */
     footer{
         width: 100%;
-        background-color: #6D2CF2;
+        background-color: #fff;
     }
 
     footer .container{
@@ -397,7 +476,7 @@ body{
     }
 
     footer .container p{
-        color: white;
+        color: black;
         text-align: center;
     }
 /* Footer END */
@@ -424,3 +503,43 @@ body{
 }
 
 /* Responsive  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Arrow Up START */
+.arrow{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
+.arrow .container{
+    padding: 40px;
+}
+
+.arrow .container ul{
+    display: flex;
+    justify-content: end;
+}
+
+.arrow .container a{
+    color: white;
+    padding: 10px;
+    background-color: black;
+}.arrow .container a:hover{
+    background-color: gray;
+}
