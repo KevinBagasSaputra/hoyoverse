@@ -311,7 +311,7 @@ body{
 
 
 
-                    /* Genshin Impact START */
+                /* Genshin Impact START */
                     .genshin {
                         width: 100%;
                     }
@@ -368,7 +368,195 @@ body{
                                 }
                             /* section text */
                     
-                    /* Genshin Impact END */
+                /* Genshin Impact END */
+
+
+
+                /* Honkai Impact START */
+                    .honkai {
+                        width: 100%;
+                    }
+                    
+                    .honkai .container {
+                        padding: 10px;
+                    }
+                    
+                    .honkai .container ul {
+                        display: flex;
+                        justify-content: center;
+                    }
+                    
+                        /* Header Content */
+                        .honkai .container ul .header-content {
+                            background-color: white;
+                        }
+                        
+                        .honkai .container ul .header-content .container {
+                            padding: 10px;
+                        }
+
+                        .honkai .container ul .header-content .container ul{
+                            display: flex;
+                            justify-content: space-around;
+                            flex-wrap: nowrap;
+                        }
+                        
+                        .honkai .container ul .header-content .container img {
+                            min-width: 100px;
+                            max-width: 100px;
+                            
+                            
+                            min-height: 50%;
+                            max-height: 100%;
+                            object-fit: cover;
+                        }
+                        /* Header Content */
+
+                            /* section text */
+                                .honkai .container ul .header-content .container .section-text{
+                                    min-width: 100px;
+                                    min-width: 200px;
+
+                                }
+
+                                .honkai .container ul .header-content .container .section-text h3{
+                                    color: black;
+                                }
+
+                                .honkai .container ul .header-content .container .section-text p{
+                                    color: black;
+                                    margin: 10px;
+                                }
+                            /* section text */
+                    
+                /* Honkai Impact END */
+
+
+
+                /* Honkai Star Rail START */
+                    .hsr {
+                        width: 100%;
+                    }
+                    
+                    .hsr .container {
+                        padding: 10px;
+                    }
+                    
+                    .hsr .container ul {
+                        display: flex;
+                        justify-content: center;
+                    }
+                    
+                        /* Header Content */
+                        .hsr .container ul .header-content {
+                            background-color: white;
+                        }
+                        
+                        .hsr .container ul .header-content .container {
+                            padding: 10px;
+                        }
+
+                        .hsr .container ul .header-content .container ul{
+                            display: flex;
+                            justify-content: space-around;
+                            flex-wrap: nowrap;
+                        }
+                        
+                        .hsr .container ul .header-content .container img {
+                            min-width: 100px;
+                            max-width: 100px;
+                            
+                            
+                            min-height: 50%;
+                            max-height: 100%;
+                            object-fit: cover;
+                        }
+                        /* Header Content */
+
+                            /* section text */
+                                .hsr .container ul .header-content .container .section-text{
+                                    min-width: 100px;
+                                    min-width: 200px;
+
+                                }
+
+                                .hsr .container ul .header-content .container .section-text h3{
+                                    color: black;
+                                }
+
+                                .hsr .container ul .header-content .container .section-text p{
+                                    color: black;
+                                    margin: 10px;
+                                }
+                            /* section text */
+                    
+                    /* Honkai Star Rail END */
+
+
+
+
+                /* Zenless Zone Zero START */
+                    .zzz {
+                        width: 100%;
+                    }
+                    
+                    .zzz .container {
+                        padding: 10px;
+                    }
+                    
+                    .zzz .container ul {
+                        display: flex;
+                        justify-content: center;
+                    }
+                    
+                        /* Header Content */
+                        .zzz .container ul .header-content {
+                            background-color: white;
+                        }
+                        
+                        .zzz .container ul .header-content .container {
+                            padding: 10px;
+                        }
+
+                        .zzz .container ul .header-content .container ul{
+                            display: flex;
+                            justify-content: space-around;
+                            flex-wrap: nowrap;
+                        }
+                        
+                        .zzz .container ul .header-content .container img {
+                            min-width: 100px;
+                            max-width: 100px;
+                            
+                            
+                            min-height: 50%;
+                            max-height: 100%;
+                            object-fit: cover;
+                        }
+                        /* Header Content */
+
+                            /* section text */
+                                .zzz .container ul .header-content .container .section-text{
+                                    min-width: 100px;
+                                    min-width: 200px;
+
+                                }
+
+                                .zzz .container ul .header-content .container .section-text h3{
+                                    color: black;
+                                }
+
+                                .zzz .container ul .header-content .container .section-text p{
+                                    color: black;
+                                    margin: 10px;
+                                }
+                            /* section text */
+                    
+                /* Zenless Zone Zero END */
+
+
+
+
 
         /* Column main END */
 
@@ -386,7 +574,7 @@ body{
             }
 
             .sidebar-second .container{
-                position: unset;
+                /* position: unset; */
                 padding: 10px;
                 
             }
@@ -534,6 +722,35 @@ body{
         min-width: 50%;
         max-width: 100%;
 
+
+        min-height: 100px;
+        max-height: 300px;
+        object-fit: cover;
+    }
+
+
+    .honkai .container ul .header-content .container ul img{
+        min-width: 50%;
+        max-width: 100%;
+
+        min-height: 100px;
+        max-height: 300px;
+        object-fit: cover;
+        
+    }
+
+    .hsr .container ul .header-content .container ul img{
+        min-width: 50%;
+        max-width: 100%;
+
+        min-height: 100px;
+        max-height: 300px;
+        object-fit: cover;        
+    }
+
+    .zzz .container ul .header-content .container ul img{
+        min-width: 50%;
+        max-width: 100%;
 
         min-height: 100px;
         max-height: 300px;
